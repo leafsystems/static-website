@@ -43,14 +43,14 @@ theme = "meghna-hugo"
 # Site params
 [params]
 home= "Home"
-logo = "images/logos/logo-white-green.png"
+logo = "images/logos/logo-white-colored.svg"
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA"
 custom_css = ["css/custom.css"]
 
     # Banner Section
     [params.banner]
     enable = true
-    bgImage = "images/slider/archive-1850170.jpg"
+    bgImage = "images/slider/archive-1850170-min2.jpg"
     videobtn = false
     videourl = "" ## not actually configured yet
     icon = "tf-ion-play"
@@ -68,29 +68,33 @@ custom_css = ["css/custom.css"]
     btnURL = "#"
     btnText = "Start a project with us"
 
-    # counter
-    [params.counter]
+    # awards
+    [params.awards]
     enable = true
     bgImage = "images/backgrounds/bg-1.jpg"
-        [[params.counter.counterItem]]
-        title = "Happy Clients"
-        icon = "tf-ion-android-happy"
-        count = "320"
+        [[params.awards.awardItem]]
+        title = "Conrad Challenge Winners"
+        src = "images/awards/conradlogo.png"
+        href = ""
+        count = ""
 
-        [[params.counter.counterItem]]
-        title = "Projects completed"
-        icon = "tf-ion-archive"
-        count = "565"
+        [[params.awards.awardItem]]
+        title = "MIT Lemelson Finalists"
+        src = "images/awards/lemelsonlogo.png"
+        href = ""
+        count = ""
 
-        [[params.counter.counterItem]]
-        title = "Positive feedback"
-        icon = "tf-ion-thumbsup"
-        count = "95"
+        [[params.awards.awardItem]]
+        title = "MIT 100K Pitch Finalists"
+        src = "images/awards/100kpitchlogo.png"
+        href = ""
+        count = ""
 
-        [[params.counter.counterItem]]
-        title = "Cups of Coffee"
-        icon = "tf-ion-coffee"
-        count = "2500"
+        [[params.awards.awardItem]]
+        title = "MIT Fuse Admits"
+        src = "images/awards/mitfuse.png"
+        href = ""
+        count = ""
     
     # footer
     [params.footer]

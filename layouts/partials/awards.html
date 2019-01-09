@@ -1,0 +1,20 @@
+{{ if .Site.Params.awards.enable }}
+{{"<!-- Start award Section -->" | safeHTML}}
+<section id="awards" class="parallax-section bg-1 section overly" style='background-image: url("{{ .Site.Params.awards.bgImage | absURL }}")'>
+    <div class="container">
+        <div class="row">
+            {{ range .Site.Params.awards.awardItem }}
+            <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms">
+                <div class="counters-item">
+                    <a href="{{ .href }}"> <img src="{{ .src }}" height = 60 px> </a>
+                    <span data-speed="3000" data-to="{{ .count }}">{{ .count }}</span>
+                    <br>
+                    <h3>{{ .title }}</h3>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{"<!-- /award Section -->" | safeHTML}}
+{{ end }}

@@ -2,12 +2,11 @@
 
 ## V1
 
-The layout for V1 is 
-
+## The layout for V1 is 
 - [] What we do
 - [] Our accomplishments
 - [] Our story
-- [] The team 
+- [*] The team 
 - [] Timeline and Progress
 - [] Future of LEAF
-- [] Contact Us
+- [*] Contact Us
