@@ -1,6 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "https://leafsystems.github.io/"
 languageCode = "en-us"
-title = "Meghna | Responsive Multipurpose Parallax HTML5 Template"
+title = "LEAF Systems | Cutting-edge Operations Optimization "
 theme = "meghna-hugo"
 
 # Menu
@@ -43,17 +43,19 @@ theme = "meghna-hugo"
 # Site params
 [params]
 home= "Home"
-logo = "images/logo.png"
+logo = "images/logos/logo-white-green.png"
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA"
 custom_css = ["css/custom.css"]
 
     # Banner Section
     [params.banner]
     enable = true
-    bgImage = "images/slider/hero-area.jpg"
+    bgImage = "images/slider/archive-1850170.jpg"
+    videobtn = false
+    videourl = "" ## not actually configured yet
     icon = "tf-ion-play"
-    heading = "Experience the new reality"
-    content= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi. At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!"
+    heading = "LEAF Systems"
+    content= "Operations optimization powered by cutting-edge spatial technology"
     btn = true
     btnText="Explore Us"
     btnURL="#services"

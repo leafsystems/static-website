@@ -2,58 +2,32 @@ enable : true
 heading : Our
 headingSpan : Team
 teamMember :
-  - image : images/team/team-1.jpg
-    name : Abul Mal Muhit
+  - image : images/team/jon2.jpg
+    name : Jonathan Kelley
+    designation : CTO/Founder
+    description : Jon is systems engineering and entrepreneurship student at Olin College of Engineering. He is passionate about the intersection of data and business.
+    socialIcon :
+      - icon : tf-ion-social-linkedin
+        url : "https://www.linkedin.com/in/jonathan-r-kelley/"
+      - icon : tf-ion-social-github
+        url : "https://github.com/jkelleyrtp"
+      - icon : tf-ion-ios-world-outline
+        url : "http://jonathan-kelley.com"        
+      
+  - image : images/team/julia2.jpg
+    name : Julia Wang
     designation : CEO/Founder
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    description : Julia is a Math and Computer Science major at MIT. She does everything from fin-tech to acapella!
     socialIcon :
-      - icon : tf-ion-social-facebook
-        url : "#"
-      - icon : tf-ion-social-twitter
-        url : "#"
       - icon : tf-ion-social-linkedin
-        url : "#"
-      - icon : tf-ion-social-dribbble-outline
-        url : "#"
-      
-  - image : images/team/team-2.jpg
-    name : Frank Miller
-    designation : Manager
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+        url : "https://www.linkedin.com/in/julia-wang-7b1094162/"
+
+  - image : images/team/abhijit.jpg
+    name : Abhijit Gupta
+    designation : Developer/Founder
+    description : Abhijit is a student, robotics captain, and physics researcher at the North Carolina School of Science and Mathematics
     socialIcon :
-      - icon : tf-ion-social-facebook
-        url : "#"
-      - icon : tf-ion-social-twitter
-        url : "#"
+      - icon : tf-ion-social-github
+        url : "https://github.com/avgupta456"
       - icon : tf-ion-social-linkedin
-        url : "#"
-      - icon : tf-ion-social-dribbble-outline
-        url : "#"
-      
-  - image : images/team/team-3.jpg
-    name : Michael Jonson
-    designation : Web Developer
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-    socialIcon :
-      - icon : tf-ion-social-facebook
-        url : "#"
-      - icon : tf-ion-social-twitter
-        url : "#"
-      - icon : tf-ion-social-linkedin
-        url : "#"
-      - icon : tf-ion-social-dribbble-outline
-        url : "#"
-      
-  - image : images/team/team-4.jpg
-    name : Mo. Kha. Alamgir
-    designation : SEO Specialist
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-    socialIcon :
-      - icon : tf-ion-social-facebook
-        url : "#"
-      - icon : tf-ion-social-twitter
-        url : "#"
-      - icon : tf-ion-social-linkedin
-        url : "#"
-      - icon : tf-ion-social-dribbble-outline
-        url : "#"
+        url : "https://www.linkedin.com/in/abhijit-gupta-624760142/"
